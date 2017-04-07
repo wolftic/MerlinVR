@@ -2,15 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fireball : MonoBehaviour {
+public class Fireball : Spell
+{
+    private void Update()
+    {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    }
+
+    private void OnCollisionEnter(Collision col)
+    {
+
+    }
+
+    public override void Activate()
+    {
+
+    }
+
+    public override void Init()
+    {
+
+    }
 }

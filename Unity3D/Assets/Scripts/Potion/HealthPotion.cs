@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthPotion : MonoBehaviour {
+public class HealthPotion : Potion {
+    public void Activate(Humanoid hum)
+    {
+        //hum.AddHealth(amount);
+    }
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    /*     Moet nog wat op bedacht worden      */
+    /*private void OnCollisionEnter(Collider col)
+    {
+
+    }*/
 }

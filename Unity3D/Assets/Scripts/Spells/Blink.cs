@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Blink : MonoBehaviour {
+public class Blink : Spell {
+    public override void Activate()
+    {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    }
+
+    public override void Init()
+    {
+        
+    }
 }

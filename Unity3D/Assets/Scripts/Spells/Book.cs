@@ -1,16 +1,30 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Book : MonoBehaviour {
+public class Book : MonoBehaviour
+{
+    private Player _player;
+    private Spell _spellSelected;
+    private Spell[] _spells;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public void SetSpell(int i)
+    {
+        var spell = _spells[i];
+        _spellSelected = spell;
+    }
+
+    public Spell GetCurrentSpell()
+    {
+        return _spellSelected;
+    }
+}
+
+public enum SpellType
+{
+    Fireball,
+    Thunder,
+    Teleport
 }

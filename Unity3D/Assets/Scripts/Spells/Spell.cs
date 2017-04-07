@@ -1,16 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Remoting;
 using UnityEngine;
 
-public class Spell : MonoBehaviour {
+public abstract class Spell : MonoBehaviour
+{
+    protected float speed, damage;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public abstract void Activate();
+    public abstract void Init();
 }

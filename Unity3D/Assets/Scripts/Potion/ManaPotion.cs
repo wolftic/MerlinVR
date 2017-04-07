@@ -2,15 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ManaPotion : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+public class ManaPotion : Potion {
+    public void Activate(Player pl)
+    {
+        //pl.AddMana(amount);
+    }
 }
