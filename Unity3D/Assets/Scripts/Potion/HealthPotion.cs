@@ -5,7 +5,7 @@ using UnityEngine;
 public class HealthPotion : Potion {
     public void Activate(Humanoid hum)
     {
-        //hum.AddHealth(amount);
+        hum.AddHealth(amount);
     }
 
     /*     Moet nog wat op bedacht worden      */

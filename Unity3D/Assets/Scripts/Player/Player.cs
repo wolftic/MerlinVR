@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
+    [SerializeField]
+    private float _maxMana;
 
-	// Use this for initialization
+    private float _mana;
+    private Book _book;
+
 	void Start () {
-		
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		
 	}

@@ -22,7 +22,7 @@ public class ManaCrystal : MonoBehaviour
 
         foreach (var player in _players)
         {
-            //player.AddMana(_manaPerTick);
+            player.AddMana(_manaPerTick);
         }
 
         Debug.Log("Giving mana to " + _players.Count + " player(s).");
