@@ -1,16 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class EnemyAttack : MonoBehaviour {
+public class EnemyAttack : State
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private float _damage;
+    public override void Enter()
+    {
+        _damage = 50f;
+    }
+
+    public override void StateUpdate()
+    {
+
+    }
+
+    public override void Exit()
+    {
+
+    }
 }

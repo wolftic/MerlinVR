@@ -2,15 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class State : MonoBehaviour {
+public abstract class State : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public abstract void Enter();
+    public abstract void StateUpdate();
+    public abstract void Exit();
 }

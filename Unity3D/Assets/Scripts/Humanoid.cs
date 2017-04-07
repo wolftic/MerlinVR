@@ -1,16 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Humanoid : MonoBehaviour {
+public abstract class Humanoid : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    protected float health;
+
+    public void DealDamage(float damage)
+    {
+
+    }
+
+    public void AddHealth(float hp)
+    {
+
+    }
 }

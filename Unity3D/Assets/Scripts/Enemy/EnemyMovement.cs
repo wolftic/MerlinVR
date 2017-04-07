@@ -1,16 +1,24 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour {
+public class EnemyMovement : State
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private float _speed;
+    [SerializeField] private Transform _target;
+
+    public override void Enter()
+    {
+        _speed = 4f;
+    }
+
+    public override void StateUpdate()
+    {
+        float step = _speed * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(transform.position, _target.position, step);
+    }
+
+    public override void Exit()
+    {
+
+    }
 }

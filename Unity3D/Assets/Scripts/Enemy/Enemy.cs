@@ -2,15 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour {
+public class Enemy : Humanoid
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private StateMachine _stateMachine;
+    private EnemyAttack _attackState;
+    private EnemyMovement _movementState;
+
+    private void Awake()
+    {
+        _stateMachine = GetComponent<StateMachine>();
+        _attackState = GetComponent<EnemyAttack>();
+        _movementState = GetComponent<EnemyMovement>();
+
+    }
+
+    private void Start()
+    {
+        _stateMachine.AddState("attacking", _attackState);
+        _stateMachine.AddState("moving", _movementState);
+        _stateMachine.SetState("moving");
+    }
+
+
 }
