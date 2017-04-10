@@ -10,10 +10,22 @@ public class Player : MonoBehaviour
     private float _mana;
     private Book _book;
 
-	void Start () {
+    public void AddMana(float mp)
+    {
+        _mana += mp;
+        Mathf.Clamp(_mana, 0, _maxMana);
+    }
+
+    public void RemoveMana(float mp)
+    {
+        _mana -= mp;
+        Mathf.Clamp(_mana, 0, _maxMana);
+    }
+
+	private void Awake () {
 	}
-	
-	void Update () {
-		
+
+    private void Update () {
+
 	}
 }
