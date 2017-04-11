@@ -2,15 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tower : MonoBehaviour {
+public class Tower : MonoBehaviour
+{
+    [HideInInspector] public float Health;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    private void Start()
+    {
+        Health = 100;
+    }
+
+    public void DealDamage(float dmg)
+    {
+        if (Health <= 0)
+        {
+            Health -= dmg;
+        }
+        else
+        {
+            Health = 0;
+        }
+
+    }
+
+    private void Update()
+    {
+        Debug.Log("Health: " + Health);
+    }
 }
