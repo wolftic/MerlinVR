@@ -5,6 +5,7 @@ using UnityEngine;
 
 public abstract class Spell : MonoBehaviour
 {
+    [SerializeField]
     protected float speed, damage;
 
     public abstract void Activate();

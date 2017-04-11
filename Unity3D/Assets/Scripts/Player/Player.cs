@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Humanoid
 {
     [SerializeField]
     private float _maxMana;
 
     private float _mana;
-    private Book _book;
 
     public void AddMana(float mp)
     {
@@ -23,6 +22,7 @@ public class Player : MonoBehaviour
     }
 
 	private void Awake () {
+
 	}
 
     private void Update () {

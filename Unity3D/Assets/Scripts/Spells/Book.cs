@@ -7,8 +7,17 @@ using UnityEngine.UI;
 public class Book : MonoBehaviour
 {
     private Player _player;
+
+    [SerializeField]
     private Spell _spellSelected;
+
+    [SerializeField]
     private Spell[] _spells;
+
+    private void Awake()
+    {
+        _player = GetComponent<Player>();
+    }
 
     public void SetSpell(int i)
     {
