@@ -10,6 +10,7 @@ public class Enemy : Humanoid
     private EnemyMovement _movementState;
 
 
+
     private void Awake()
     {
         _stateMachine = GetComponent<StateMachine>();
@@ -28,7 +29,7 @@ public class Enemy : Humanoid
     private void Update()
     {
 
-        if (_movementState._distance <= 1.6f)
+        if (_movementState._distance <= _movementState.StoppingDistance)
         {
             _stateMachine.SetState("attacking");
         }

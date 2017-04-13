@@ -9,9 +9,11 @@ public class EnemyMovement : State
     [SerializeField] public Transform _target;
     private NavMeshAgent _navMeshAgent;
     [HideInInspector] public float _distance;
+    [HideInInspector] public float StoppingDistance;
 
     public override void Enter()
     {
+        StoppingDistance = 5f;
         _navMeshAgent = GetComponent<NavMeshAgent>();
         _speed = 10f;
         _navMeshAgent.speed = _speed;
@@ -27,6 +29,7 @@ public class EnemyMovement : State
 
     public override void Exit()
     {
-
+        Debug.Log("exitmove");
+        _navMeshAgent.GetComponent<NavMeshAgent>().enabled = false;
     }
 }

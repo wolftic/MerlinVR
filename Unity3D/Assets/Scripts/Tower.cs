@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
@@ -14,7 +12,7 @@ public class Tower : MonoBehaviour
 
     public void DealDamage(float dmg)
     {
-        if (Health <= 0)
+        if (Health > 0)
         {
             Health -= dmg;
         }
@@ -27,6 +25,6 @@ public class Tower : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("Health: " + Health);
+        Debug.Log("Tower Health: " + Health);
     }
 }
