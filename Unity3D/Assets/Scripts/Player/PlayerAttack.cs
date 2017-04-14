@@ -15,6 +15,11 @@ public class PlayerAttack : MonoBehaviour {
 
     private void Update()
     {
+        if (Input.GetMouseButtonDown(0)) //if (Input.GetMouseButtonDown(0))
+        {
+            Attack();
+        }
+
         if (_player.leftController == null || _player.rightController == null) return;
         if (_player.rightController.GetPressDown(SteamVR_Controller.ButtonMask.Trigger) || Input.GetMouseButtonDown(0))//if (Input.GetMouseButtonDown(0))
         {
@@ -24,10 +29,14 @@ public class PlayerAttack : MonoBehaviour {
 
     public void Attack()
     {
+        var position = (_player.rightHand == null) ? transform.position : _player.rightHand.transform.position;
+        var rotation = (_player.rightHand == null) ? transform.rotation : _player.rightHand.transform.rotation;
+
         var spell = _book.GetCurrentSpell();
         var obj = Instantiate(spell);
-        obj.transform.position = _player.rightHand.transform.position;
-        obj.transform.rotation = _player.rightHand.transform.rotation;
+
+        obj.transform.position = position;
+        obj.transform.rotation = rotation;
         obj.GetComponent<Spell>().Activate();
     }
 }

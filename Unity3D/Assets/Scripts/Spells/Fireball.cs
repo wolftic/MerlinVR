@@ -5,6 +5,8 @@ using UnityEngine;
 public class Fireball : Spell
 {
     private bool _active = false;
+    [SerializeField]
+    private GameObject _explosion;
 
     private void Update()
     {
@@ -20,9 +22,16 @@ public class Fireball : Spell
 
         var enemy = col.transform.root.GetComponent<Enemy>();
 
-        if (enemy == null) return;
-
-        enemy.DealDamage(damage);
+        if (enemy == null)
+        {
+            var expl = Instantiate(_explosion) as GameObject;
+            expl.transform.position = transform.position;
+            Destroy(expl, 5f);
+        }
+        else
+        {
+            enemy.DealDamage(damage);
+        }
     }
 
     public override void Activate()
