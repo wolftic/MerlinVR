@@ -21,15 +21,16 @@ public class Enemy : Humanoid
 
     private void Start()
     {
-        _stateMachine.AddState("attacking", _attackState);
         _stateMachine.AddState("moving", _movementState);
+        _stateMachine.AddState("attacking", _attackState);
         _stateMachine.SetState("moving");
+
+
     }
 
     private void Update()
     {
-
-        if (_movementState._distance <= _movementState.StoppingDistance)
+        if (_movementState._distance <= 5f)
         {
             _stateMachine.SetState("attacking");
         }
