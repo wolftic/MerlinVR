@@ -2,12 +2,28 @@
 
 public class GameManager : MonoBehaviour
 {
-    private Enemy _enemyPrefab;
+    [SerializeField] private GameObject _spawner;
+    private EnemySpawner _enemySpawner;
+    private int _maxEnemies;
 
 
-    public void SpawnEnemies(int count)
+    private void Awake()
     {
-        var enemy = (Enemy) Instantiate(_enemyPrefab, transform.position, transform.rotation);
+        _enemySpawner = GetComponent<EnemySpawner>();
     }
+
+    private void Start()
+    {
+        _maxEnemies = 1;
+        _enemySpawner.SpawnEnemies(_maxEnemies);
+    }
+
+    private void Update()
+    {
+
+    }
+
+
+
 
 }
