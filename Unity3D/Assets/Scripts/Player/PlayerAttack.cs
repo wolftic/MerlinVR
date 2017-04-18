@@ -9,7 +9,7 @@ public class PlayerAttack : MonoBehaviour {
 
     private void Awake()
     {
-        _book = GetComponent<Book>();
+        _book = GameObject.FindObjectOfType<Book>();
         _player = Valve.VR.InteractionSystem.Player.instance;
     }
 
