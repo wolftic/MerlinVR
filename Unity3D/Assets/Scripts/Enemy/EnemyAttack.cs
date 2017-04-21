@@ -12,13 +12,6 @@ public class EnemyAttack : State
     [SerializeField]
     private float _attackDelay;
 
-
-    public float Damage
-    {
-        get { return _damage; }
-        set { _damage = value; }
-    }
-
     public override void Enter()
     {
         _tower = GameObject.FindObjectOfType<Tower>();

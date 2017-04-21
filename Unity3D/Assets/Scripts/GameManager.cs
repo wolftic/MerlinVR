@@ -5,19 +5,14 @@ public class GameManager : MonoBehaviour
     private GameObject[] _enemySpawnerObjects;
     private EnemySpawner[] _enemySpawners;
     private int _maxEnemies;
-    private int _waveCount;
-
-    private EnemySpawner _enemySpawner;
 
     private void Awake()
     {
         _enemySpawnerObjects = GameObject.FindGameObjectsWithTag("Spawner");
-        _enemySpawner = GetComponent<EnemySpawner>();
     }
 
     private void Start()
     {
-        _waveCount = 0;
         _maxEnemies = 15;
         _enemySpawners = new EnemySpawner[_enemySpawnerObjects.Length];
 
@@ -32,8 +27,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         // TotalEnemyCount() < 0 begin nieuwe ronde
-       // Debug.Log( TotalEnemyCount() );
-        CheckWave();
+        Debug.Log( TotalEnemyCount() );
     }
 
     private int TotalEnemyCount()
@@ -45,17 +39,6 @@ public class GameManager : MonoBehaviour
         }
 
         return c;
-    }
-
-    private void CheckWave()
-    {
-        if (TotalEnemyCount() == 0)
-        {
-
-        }
-        // set damage in enemyattack;
-        // wave now if higher then last wave number {set count of}
-        //_enemySpawner._enemyPrefab.GetComponent<EnemyAttack>().Damage += 5f;
     }
 
     private void SpawnEnemies(int count)

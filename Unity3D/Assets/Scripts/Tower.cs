@@ -15,8 +15,7 @@ public class Tower : MonoBehaviour
     {
         Health -= dmg;
         Health = Mathf.Clamp(Health, 0f, 100f);
-        Debug.Log(dmg);
-        //Debug.Log("Tower Health: " + Health);
+        Debug.Log("Tower Health: " + Health);
     }
 
     private void Update()

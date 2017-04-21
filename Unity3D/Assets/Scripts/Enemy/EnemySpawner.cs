@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject _enemyPrefab;
+    [SerializeField] private GameObject _enemyPrefab;
     [SerializeField] private float _cooldown = 2f;
 
     private List<GameObject> _enemies = new List<GameObject>();
