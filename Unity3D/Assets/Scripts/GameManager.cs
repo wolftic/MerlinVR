@@ -2,20 +2,26 @@
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private GameObject _spawner;
-    private EnemySpawner _enemySpawner;
+    private GameObject[] _enemySpawnerObjects;
+    private EnemySpawner[] _enemySpawners;
     private int _maxEnemies;
-
 
     private void Awake()
     {
-        _enemySpawner = GetComponent<EnemySpawner>();
+        _enemySpawnerObjects = GameObject.FindGameObjectsWithTag("Spawner");
     }
 
     private void Start()
     {
-        _maxEnemies = 1;
-        _enemySpawner.SpawnEnemies(_maxEnemies);
+        _maxEnemies = 2000;
+        _enemySpawners = new EnemySpawner[_enemySpawnerObjects.Length];
+
+        for (var i = 0; i < _enemySpawners.Length; i++)
+        {
+            _enemySpawners[i] = _enemySpawnerObjects[i].GetComponent<EnemySpawner>();
+        }
+
+        SpawnEnemies(_maxEnemies);
     }
 
     private void Update()
@@ -23,7 +29,11 @@ public class GameManager : MonoBehaviour
 
     }
 
-
-
-
+    private void SpawnEnemies(int count)
+    {
+        for (var i = 0; i < _enemySpawners.Length; i++)
+        {
+            _enemySpawners[i].SpawnEnemies(count);
+        }
+    }
 }

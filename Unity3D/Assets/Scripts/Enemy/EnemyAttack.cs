@@ -3,22 +3,32 @@ using UnityEngine;
 
 public class EnemyAttack : State
 {
+    [SerializeField]
     private float _damage;
-    public Tower Tower;
+    private Tower _tower;
+
+    private float _lastAttack;
+
+    [SerializeField]
+    private float _attackDelay;
 
     public override void Enter()
     {
-        _damage = 5f;
+        _tower = GameObject.FindObjectOfType<Tower>();
     }
 
     private void Attack()
     {
-        StartCoroutine(Tower.DealDamage(_damage));
+        _tower.DealDamage(_damage);
     }
 
     public override void StateUpdate()
     {
-        Attack();
+        if (_lastAttack < Time.time)
+        {
+            Attack();
+            _lastAttack = Time.time + _attackDelay;
+        }
     }
 
     public override void Exit()

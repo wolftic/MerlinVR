@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 5964cac1db3b04348991074723d15961
+timeCreated: 1492605246
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Leaves_group1_pPlane17
+    100002: Leaves_group1_pPlane18
+    100004: Leaves_group1_pPlane19
+    100006: Leaves_group1_pPlane20
+    100008: Leaves_group2_pPlane22
+    100010: Leaves_group2_pPlane23
+    100012: Leaves_group2_pPlane24
+    100014: Leaves_pPlane10
+    100016: Leaves_pPlane11
+    100018: Leaves_pPlane13
+    100020: Leaves_pPlane14
+    100022: Leaves_pPlane15
+    100024: Leaves_pPlane16_group1
+    100026: Leaves_pPlane21_group2
+    100028: Leaves_pPlane25
+    100030: Leaves_pPlane26
+    100032: Leaves_pPlane27
+    100034: Leaves_pPlane3
+    100036: Leaves_pPlane5
+    100038: Leaves_pPlane6
+    100040: Leaves_pPlane7
+    100042: Leaves_pPlane8
+    100044: Leaves_pPlane9
+    100046: pCylinder1
+    100048: pCylinder2
+    100050: pCylinder3
+    100052: pCylinder4
+    100054: pCylinder5
+    100056: pPlane2_Leaves
+    100058: //RootNode
+    400000: Leaves_group1_pPlane17
+    400002: Leaves_group1_pPlane18
+    400004: Leaves_group1_pPlane19
+    400006: Leaves_group1_pPlane20
+    400008: Leaves_group2_pPlane22
+    400010: Leaves_group2_pPlane23
+    400012: Leaves_group2_pPlane24
+    400014: Leaves_pPlane10
+    400016: Leaves_pPlane11
+    400018: Leaves_pPlane13
+    400020: Leaves_pPlane14
+    400022: Leaves_pPlane15
+    400024: Leaves_pPlane16_group1
+    400026: Leaves_pPlane21_group2
+    400028: Leaves_pPlane25
+    400030: Leaves_pPlane26
+    400032: Leaves_pPlane27
+    400034: Leaves_pPlane3
+    400036: Leaves_pPlane5
+    400038: Leaves_pPlane6
+    400040: Leaves_pPlane7
+    400042: Leaves_pPlane8
+    400044: Leaves_pPlane9
+    400046: pCylinder1
+    400048: pCylinder2
+    400050: pCylinder3
+    400052: pCylinder4
+    400054: pCylinder5
+    400056: pPlane2_Leaves
+    400058: //RootNode
+    2300000: Leaves_group1_pPlane17
+    2300002: Leaves_group1_pPlane18
+    2300004: Leaves_group1_pPlane19
+    2300006: Leaves_group1_pPlane20
+    2300008: Leaves_group2_pPlane22
+    2300010: Leaves_group2_pPlane23
+    2300012: Leaves_group2_pPlane24
+    2300014: Leaves_pPlane10
+    2300016: Leaves_pPlane11
+    2300018: Leaves_pPlane13
+    2300020: Leaves_pPlane14
+    2300022: Leaves_pPlane15
+    2300024: Leaves_pPlane16_group1
+    2300026: Leaves_pPlane21_group2
+    2300028: Leaves_pPlane25
+    2300030: Leaves_pPlane26
+    2300032: Leaves_pPlane27
+    2300034: Leaves_pPlane3
+    2300036: Leaves_pPlane5
+    2300038: Leaves_pPlane6
+    2300040: Leaves_pPlane7
+    2300042: Leaves_pPlane8
+    2300044: Leaves_pPlane9
+    2300046: pCylinder1
+    2300048: pCylinder2
+    2300050: pCylinder3
+    2300052: pCylinder4
+    2300054: pCylinder5
+    2300056: pPlane2_Leaves
+    3300000: Leaves_group1_pPlane17
+    3300002: Leaves_group1_pPlane18
+    3300004: Leaves_group1_pPlane19
+    3300006: Leaves_group1_pPlane20
+    3300008: Leaves_group2_pPlane22
+    3300010: Leaves_group2_pPlane23
+    3300012: Leaves_group2_pPlane24
+    3300014: Leaves_pPlane10
+    3300016: Leaves_pPlane11
+    3300018: Leaves_pPlane13
+    3300020: Leaves_pPlane14
+    3300022: Leaves_pPlane15
+    3300024: Leaves_pPlane16_group1
+    3300026: Leaves_pPlane21_group2
+    3300028: Leaves_pPlane25
+    3300030: Leaves_pPlane26
+    3300032: Leaves_pPlane27
+    3300034: Leaves_pPlane3
+    3300036: Leaves_pPlane5
+    3300038: Leaves_pPlane6
+    3300040: Leaves_pPlane7
+    3300042: Leaves_pPlane8
+    3300044: Leaves_pPlane9
+    3300046: pCylinder1
+    3300048: pCylinder2
+    3300050: pCylinder3
+    3300052: pCylinder4
+    3300054: pCylinder5
+    3300056: pPlane2_Leaves
+    4300000: Leaves_group1_pPlane17
+    4300002: Leaves_group1_pPlane18
+    4300004: Leaves_group1_pPlane19
+    4300006: Leaves_group1_pPlane20
+    4300008: Leaves_group2_pPlane22
+    4300010: Leaves_group2_pPlane23
+    4300012: Leaves_group2_pPlane24
+    4300014: Leaves_pPlane10
+    4300016: Leaves_pPlane11
+    4300018: Leaves_pPlane13
+    4300020: Leaves_pPlane14
+    4300022: Leaves_pPlane15
+    4300024: Leaves_pPlane16_group1
+    4300026: Leaves_pPlane21_group2
+    4300028: Leaves_pPlane25
+    4300030: Leaves_pPlane26
+    4300032: Leaves_pPlane27
+    4300034: Leaves_pPlane3
+    4300036: Leaves_pPlane5
+    4300038: Leaves_pPlane6
+    4300040: Leaves_pPlane7
+    4300042: Leaves_pPlane8
+    4300044: Leaves_pPlane9
+    4300046: pCylinder1
+    4300048: pCylinder2
+    4300050: pCylinder3
+    4300052: pCylinder4
+    4300054: pCylinder5
+    4300056: pPlane2_Leaves
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

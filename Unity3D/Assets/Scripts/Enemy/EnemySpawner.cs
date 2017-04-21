@@ -5,11 +5,10 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private GameObject _enemyPrefab;
-
+    [SerializeField] private float _cooldown = 2f;
 
     private void Start()
     {
-
 
     }
 
@@ -20,10 +19,10 @@ public class EnemySpawner : MonoBehaviour
 
     public IEnumerator Spawn(int count)
     {
-        for (int i = 0; i < count; i++)
+        for (var i = 0; i < count; i++)
         {
             var enemy = (GameObject) Instantiate(_enemyPrefab, transform.position, transform.rotation);
-            yield return new WaitForSeconds(7f);
+            yield return new WaitForSeconds(_cooldown);
         }
         yield break;
     }

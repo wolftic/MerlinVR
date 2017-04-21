@@ -9,7 +9,8 @@ public class Enemy : Humanoid
     private EnemyAttack _attackState;
     private EnemyMovement _movementState;
 
-
+    [SerializeField]
+    private float _maxDistanceToTower = 5f;
 
     private void Awake()
     {
@@ -24,13 +25,11 @@ public class Enemy : Humanoid
         _stateMachine.AddState("moving", _movementState);
         _stateMachine.AddState("attacking", _attackState);
         _stateMachine.SetState("moving");
-
-
     }
 
     private void Update()
     {
-        if (_movementState._distance <= 5f)
+        if (_movementState.Distance <= _maxDistanceToTower)
         {
             _stateMachine.SetState("attacking");
         }
