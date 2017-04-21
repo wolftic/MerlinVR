@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        _maxEnemies = 2000;
+        _maxEnemies = 15;
         _enemySpawners = new EnemySpawner[_enemySpawnerObjects.Length];
 
         for (var i = 0; i < _enemySpawners.Length; i++)

@@ -14,7 +14,7 @@ public class Tower : MonoBehaviour
     public void DealDamage(float dmg)
     {
         Health -= dmg;
-        Health = Mathf.Clamp(Health, 0, 100f);
+        Health = Mathf.Clamp(Health, 0f, 100f);
         Debug.Log("Tower Health: " + Health);
     }
 
