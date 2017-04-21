@@ -34,6 +34,7 @@ public class Fireball : Spell
         }
     }
 
+    [ContextMenu("Activate")]
     public override void Activate()
     {
         _active = true;
