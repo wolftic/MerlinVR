@@ -26,14 +26,28 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        // TotalEnemyCount() < 0 begin nieuwe ronde
+        Debug.Log( TotalEnemyCount() );
+    }
 
+    private int TotalEnemyCount()
+    {
+        var c = 0;
+        for (var i = 0; i < _enemySpawners.Length; i++)
+        {
+            c += _enemySpawners[i].EnemyCount();
+        }
+
+        return c;
     }
 
     private void SpawnEnemies(int count)
     {
+        var countPerSpawner = count / _enemySpawners.Length;
+
         for (var i = 0; i < _enemySpawners.Length; i++)
         {
-            _enemySpawners[i].SpawnEnemies(count);
+            _enemySpawners[i].SpawnEnemies(countPerSpawner);
         }
     }
 }
