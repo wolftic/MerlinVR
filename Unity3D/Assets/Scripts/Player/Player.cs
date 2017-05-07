@@ -9,6 +9,8 @@ public class Player : Humanoid
 
     private float _mana;
 
+    public static Player Instance;
+
     public void AddMana(float mp)
     {
         _mana += mp;
@@ -21,8 +23,9 @@ public class Player : Humanoid
         Mathf.Clamp(_mana, 0, _maxMana);
     }
 
-	private void Awake () {
-
+	private void Awake ()
+	{
+	    Instance = this;
 	}
 
     private void Update () {

@@ -1,0 +1,271 @@
+fileFormatVersion: 2
+guid: 23b9152f0924d334f8643d227d321bc8
+timeCreated: 1493842950
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Enemy_RigV15_Skin:Bottom
+    100002: Enemy_RigV15_Skin:Cervicaal
+    100004: Enemy_RigV15_Skin:CONTROL
+    100006: Enemy_RigV15_Skin:curve1
+    100008: Enemy_RigV15_Skin:Dont_fucking_touch
+    100010: Enemy_RigV15_Skin:Enemy_Model
+    100012: Enemy_RigV15_Skin:Enemy_Rig
+    100014: Enemy_RigV15_Skin:Foot
+    100016: Enemy_RigV15_Skin:Foot_Control
+    100018: Enemy_RigV15_Skin:Head
+    100020: Enemy_RigV15_Skin:Head_Controller
+    100022: Enemy_RigV15_Skin:ikHandle5
+    100024: Enemy_RigV15_Skin:ikHandle6
+    100026: Enemy_RigV15_Skin:ikHandle7
+    100028: Enemy_RigV15_Skin:ikHandle8
+    100030: Enemy_RigV15_Skin:ikHandle_Spline
+    100032: Enemy_RigV15_Skin:Knee
+    100034: Enemy_RigV15_Skin:L_Arm_Control1
+    100036: Enemy_RigV15_Skin:L_Elbow
+    100038: Enemy_RigV15_Skin:L_Hand
+    100040: Enemy_RigV15_Skin:L_Shoulder1
+    100042: Enemy_RigV15_Skin:Leg
+    100044: Enemy_RigV15_Skin:Leg_Control1
+    100046: Enemy_RigV15_Skin:Lumbaal
+    100048: Enemy_RigV15_Skin:Neck
+    100050: Enemy_RigV15_Skin:Pelvis
+    100052: Enemy_RigV15_Skin:R_Arm_Control
+    100054: Enemy_RigV15_Skin:R_Elbow
+    100056: Enemy_RigV15_Skin:R_Hand
+    100058: Enemy_RigV15_Skin:R_Shoulder
+    100060: Enemy_RigV15_Skin:Sacraal
+    100062: Enemy_RigV15_Skin:Scale_foot
+    100064: Enemy_RigV15_Skin:SplineBottom_Controller
+    100066: Enemy_RigV15_Skin:SplineTop_Controller
+    100068: Enemy_RigV15_Skin:Super_CTRL
+    100070: Enemy_RigV15_Skin:Thoracaal
+    100072: Enemy_RigV15_Skin:Top
+    100074: Enemy_RigV15_Skin:transform1
+    100076: Enemy_RigV15_Skin:UpperBody_Rotate_Controller
+    100078: Enemy_RigV15_Skin:Upperleg
+    100080: //RootNode
+    400000: Enemy_RigV15_Skin:Bottom
+    400002: Enemy_RigV15_Skin:Cervicaal
+    400004: Enemy_RigV15_Skin:CONTROL
+    400006: Enemy_RigV15_Skin:curve1
+    400008: Enemy_RigV15_Skin:Dont_fucking_touch
+    400010: Enemy_RigV15_Skin:Enemy_Model
+    400012: Enemy_RigV15_Skin:Enemy_Rig
+    400014: Enemy_RigV15_Skin:Foot
+    400016: Enemy_RigV15_Skin:Foot_Control
+    400018: Enemy_RigV15_Skin:Head
+    400020: Enemy_RigV15_Skin:Head_Controller
+    400022: Enemy_RigV15_Skin:ikHandle5
+    400024: Enemy_RigV15_Skin:ikHandle6
+    400026: Enemy_RigV15_Skin:ikHandle7
+    400028: Enemy_RigV15_Skin:ikHandle8
+    400030: Enemy_RigV15_Skin:ikHandle_Spline
+    400032: Enemy_RigV15_Skin:Knee
+    400034: Enemy_RigV15_Skin:L_Arm_Control1
+    400036: Enemy_RigV15_Skin:L_Elbow
+    400038: Enemy_RigV15_Skin:L_Hand
+    400040: Enemy_RigV15_Skin:L_Shoulder1
+    400042: Enemy_RigV15_Skin:Leg
+    400044: Enemy_RigV15_Skin:Leg_Control1
+    400046: Enemy_RigV15_Skin:Lumbaal
+    400048: Enemy_RigV15_Skin:Neck
+    400050: Enemy_RigV15_Skin:Pelvis
+    400052: Enemy_RigV15_Skin:R_Arm_Control
+    400054: Enemy_RigV15_Skin:R_Elbow
+    400056: Enemy_RigV15_Skin:R_Hand
+    400058: Enemy_RigV15_Skin:R_Shoulder
+    400060: Enemy_RigV15_Skin:Sacraal
+    400062: Enemy_RigV15_Skin:Scale_foot
+    400064: Enemy_RigV15_Skin:SplineBottom_Controller
+    400066: Enemy_RigV15_Skin:SplineTop_Controller
+    400068: Enemy_RigV15_Skin:Super_CTRL
+    400070: Enemy_RigV15_Skin:Thoracaal
+    400072: Enemy_RigV15_Skin:Top
+    400074: Enemy_RigV15_Skin:transform1
+    400076: Enemy_RigV15_Skin:UpperBody_Rotate_Controller
+    400078: Enemy_RigV15_Skin:Upperleg
+    400080: //RootNode
+    4300000: Enemy_RigV15_Skin:Enemy_Model
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Enemy_RigV15_Skin:Enemy_Model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:Leg_Control1
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:Leg_Control1/Enemy_RigV15_Skin:Foot_Control
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:Leg_Control1/Enemy_RigV15_Skin:ikHandle7
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:Scale_foot
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller/Enemy_RigV15_Skin:SplineBottom_Controller
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller/Enemy_RigV15_Skin:SplineBottom_Controller/Enemy_RigV15_Skin:SplineTop_Controller
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller/Enemy_RigV15_Skin:SplineBottom_Controller/Enemy_RigV15_Skin:SplineTop_Controller/Enemy_RigV15_Skin:Head_Controller
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller/Enemy_RigV15_Skin:SplineBottom_Controller/Enemy_RigV15_Skin:SplineTop_Controller/Enemy_RigV15_Skin:Head_Controller/Enemy_RigV15_Skin:ikHandle5
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller/Enemy_RigV15_Skin:SplineBottom_Controller/Enemy_RigV15_Skin:SplineTop_Controller/Enemy_RigV15_Skin:L_Arm_Control1
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller/Enemy_RigV15_Skin:SplineBottom_Controller/Enemy_RigV15_Skin:SplineTop_Controller/Enemy_RigV15_Skin:L_Arm_Control1/Enemy_RigV15_Skin:ikHandle8
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller/Enemy_RigV15_Skin:SplineBottom_Controller/Enemy_RigV15_Skin:SplineTop_Controller/Enemy_RigV15_Skin:R_Arm_Control
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller/Enemy_RigV15_Skin:SplineBottom_Controller/Enemy_RigV15_Skin:SplineTop_Controller/Enemy_RigV15_Skin:R_Arm_Control/Enemy_RigV15_Skin:ikHandle6
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller/Enemy_RigV15_Skin:SplineBottom_Controller/Enemy_RigV15_Skin:SplineTop_Controller/Enemy_RigV15_Skin:Top
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller/Enemy_RigV15_Skin:SplineBottom_Controller/Enemy_RigV15_Skin:transform1
+        weight: 1
+      - path: Enemy_RigV15_Skin:CONTROL/Enemy_RigV15_Skin:Super_CTRL/Enemy_RigV15_Skin:UpperBody_Rotate_Controller/Enemy_RigV15_Skin:SplineBottom_Controller/Enemy_RigV15_Skin:transform1/Enemy_RigV15_Skin:Bottom
+        weight: 1
+      - path: Enemy_RigV15_Skin:Dont_fucking_touch
+        weight: 1
+      - path: Enemy_RigV15_Skin:Dont_fucking_touch/Enemy_RigV15_Skin:curve1
+        weight: 1
+      - path: Enemy_RigV15_Skin:Dont_fucking_touch/Enemy_RigV15_Skin:ikHandle_Spline
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Model
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal/Enemy_RigV15_Skin:Lumbaal
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal/Enemy_RigV15_Skin:Lumbaal/Enemy_RigV15_Skin:Thoracaal
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal/Enemy_RigV15_Skin:Lumbaal/Enemy_RigV15_Skin:Thoracaal/Enemy_RigV15_Skin:Cervicaal
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal/Enemy_RigV15_Skin:Lumbaal/Enemy_RigV15_Skin:Thoracaal/Enemy_RigV15_Skin:Cervicaal/Enemy_RigV15_Skin:Neck
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal/Enemy_RigV15_Skin:Lumbaal/Enemy_RigV15_Skin:Thoracaal/Enemy_RigV15_Skin:Cervicaal/Enemy_RigV15_Skin:Neck/Enemy_RigV15_Skin:Head
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal/Enemy_RigV15_Skin:Lumbaal/Enemy_RigV15_Skin:Thoracaal/Enemy_RigV15_Skin:L_Shoulder1
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal/Enemy_RigV15_Skin:Lumbaal/Enemy_RigV15_Skin:Thoracaal/Enemy_RigV15_Skin:L_Shoulder1/Enemy_RigV15_Skin:L_Elbow
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal/Enemy_RigV15_Skin:Lumbaal/Enemy_RigV15_Skin:Thoracaal/Enemy_RigV15_Skin:L_Shoulder1/Enemy_RigV15_Skin:L_Elbow/Enemy_RigV15_Skin:L_Hand
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal/Enemy_RigV15_Skin:Lumbaal/Enemy_RigV15_Skin:Thoracaal/Enemy_RigV15_Skin:R_Shoulder
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal/Enemy_RigV15_Skin:Lumbaal/Enemy_RigV15_Skin:Thoracaal/Enemy_RigV15_Skin:R_Shoulder/Enemy_RigV15_Skin:R_Elbow
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Sacraal/Enemy_RigV15_Skin:Lumbaal/Enemy_RigV15_Skin:Thoracaal/Enemy_RigV15_Skin:R_Shoulder/Enemy_RigV15_Skin:R_Elbow/Enemy_RigV15_Skin:R_Hand
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Upperleg
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Upperleg/Enemy_RigV15_Skin:Knee
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Upperleg/Enemy_RigV15_Skin:Knee/Enemy_RigV15_Skin:Leg
+        weight: 1
+      - path: Enemy_RigV15_Skin:Enemy_Rig/Enemy_RigV15_Skin:Pelvis/Enemy_RigV15_Skin:Upperleg/Enemy_RigV15_Skin:Knee/Enemy_RigV15_Skin:Leg/Enemy_RigV15_Skin:Foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

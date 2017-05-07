@@ -9,8 +9,22 @@ public class EnemyAttack : State
 
     private float _lastAttack;
 
+
     [SerializeField]
     private float _attackDelay;
+
+
+    public float Damage
+    {
+        get
+        {
+           return _damage;
+        }
+        set
+        {
+           _damage = value;
+        }
+    }
 
     public override void Enter()
     {
@@ -20,6 +34,7 @@ public class EnemyAttack : State
     private void Attack()
     {
         _tower.DealDamage(_damage);
+        GetComponent<Animator>().SetTrigger("Attack");
     }
 
     public override void StateUpdate()

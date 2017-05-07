@@ -4,7 +4,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class EnemyMovement : State
 {
-
+    [SerializeField]
     private float _speed;
     private Tower _tower;
     private NavMeshAgent _navMeshAgent;
@@ -21,10 +21,11 @@ public class EnemyMovement : State
 
         Distance = Vector3.Distance(_tower.transform.position, transform.position);
         _navMeshAgent = GetComponent<NavMeshAgent>();
-        _speed = 7f;
         _navMeshAgent.speed = _speed;
         _navMeshAgent.acceleration = _speed * 1.5f;
         _navMeshAgent.destination = _tower.transform.position;
+
+        GetComponent<Animator>().SetBool("isWalking", true);
     }
 
     public override void StateUpdate()
@@ -37,5 +38,6 @@ public class EnemyMovement : State
     public override void Exit()
     {
         _navMeshAgent.GetComponent<NavMeshAgent>().enabled = false;
+        GetComponent<Animator>().SetBool("isWalking", false);
     }
 }

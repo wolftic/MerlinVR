@@ -15,7 +15,7 @@ public class PlayerAttack : MonoBehaviour {
 
     private void Start()
     {
-        _book = GameObject.FindObjectOfType<Book>();
+        _book = Book.Instance;
         _player = Valve.VR.InteractionSystem.Player.instance;
         _playerOwn = GetComponent<Player>();
     }
@@ -40,6 +40,8 @@ public class PlayerAttack : MonoBehaviour {
 
         var hand = (_player.rightHand == null) ? transform.FindChild("NoSteamVRFallbackObjects").FindChild("FallbackObjects").FindChild("FallBackHandController") : _player.rightHand.transform;
 
+        if (_book == null) _book = Book.Instance;
+
         var spell = _book.GetCurrentSpell();
         var obj = Instantiate(spell);
 
@@ -48,6 +50,8 @@ public class PlayerAttack : MonoBehaviour {
         obj.transform.position = hand.position;
         obj.transform.rotation = hand.rotation;
         obj.GetComponent<Spell>().Activate();
+
+        Destroy(obj.gameObject, 10f);
 
         _lastShot = Time.time + _cooldown;
     }

@@ -42,6 +42,7 @@ public class StateMachine : MonoBehaviour
 
         _currentstate = _states[name];
         _currentstate.Enter();
+        Debug.Log(name);
     }
 
 

@@ -8,10 +8,7 @@ public abstract class Humanoid : MonoBehaviour
     public virtual void DealDamage(float damage)
     {
         health -= damage;
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
+        if (health <= 0) Destroy(gameObject);
     }
 
     public virtual void AddHealth(float hp)
