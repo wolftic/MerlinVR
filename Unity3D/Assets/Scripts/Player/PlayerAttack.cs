@@ -6,11 +6,18 @@ using Valve.VR;
 public class PlayerAttack : MonoBehaviour {
     private Book _book;
     private Valve.VR.InteractionSystem.Player _player;
+    private Player _playerOwn;
 
-    private void Awake()
+    private float _lastShot;
+
+    [SerializeField]
+    private float _cooldown;
+
+    private void Start()
     {
-        _book = GameObject.FindObjectOfType<Book>();
+        _book = Book.Instance;
         _player = Valve.VR.InteractionSystem.Player.instance;
+        _playerOwn = GetComponent<Player>();
     }
 
     private void Update()
@@ -29,14 +36,23 @@ public class PlayerAttack : MonoBehaviour {
 
     public void Attack()
     {
-        var position = (_player.rightHand == null) ? transform.position : _player.rightHand.transform.position;
-        var rotation = (_player.rightHand == null) ? transform.rotation : _player.rightHand.transform.rotation;
+        if (_lastShot > Time.time) return;
+
+        var hand = (_player.rightHand == null) ? transform.FindChild("NoSteamVRFallbackObjects").FindChild("FallbackObjects").FindChild("FallBackHandController") : _player.rightHand.transform;
+
+        if (_book == null) _book = Book.Instance;
 
         var spell = _book.GetCurrentSpell();
         var obj = Instantiate(spell);
 
-        obj.transform.position = position;
-        obj.transform.rotation = rotation;
+        _playerOwn.RemoveMana(20);
+
+        obj.transform.position = hand.position;
+        obj.transform.rotation = hand.rotation;
         obj.GetComponent<Spell>().Activate();
+
+        Destroy(obj.gameObject, 10f);
+
+        _lastShot = Time.time + _cooldown;
     }
 }

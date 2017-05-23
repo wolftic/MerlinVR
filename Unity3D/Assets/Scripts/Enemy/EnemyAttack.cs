@@ -20,6 +20,7 @@ public class EnemyAttack : State
     private void Attack()
     {
         _tower.DealDamage(_damage);
+        GetComponent<Animator>().SetTrigger("Attack");
     }
 
     public override void StateUpdate()

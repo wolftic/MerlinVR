@@ -14,15 +14,19 @@ public class Book : MonoBehaviour
     [SerializeField]
     private Spell[] _spells;
 
+    public static Book Instance;
+
     private void Awake()
     {
         _player = GetComponent<Player>();
+        Instance = this;
     }
 
     public void SetSpell(int i)
     {
         var spell = _spells[i];
         _spellSelected = spell;
+        Debug.Log(spell);
     }
 
     public Spell GetCurrentSpell()
