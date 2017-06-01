@@ -4,17 +4,18 @@ using UnityEngine;
 using Valve.VR.InteractionSystem;
 
 public class Blink : Spell {
-    private Hand rightHand;
+    private Transform rightHand;
 
     private Valve.VR.InteractionSystem.Player _player;
 
     public override void Activate()
     {
-        rightHand = Valve.VR.InteractionSystem.Player.instance.rightHand;
+        Debug.Log(_player);
+        rightHand = (_player.rightHand == null) ? transform.FindChild("NoSteamVRFallbackObjects").FindChild("FallbackObjects").FindChild("FallBackHandController") : _player.rightHand.transform;
 
         RaycastHit hit;
 
-        if (Physics.Raycast(rightHand.transform.position, rightHand.transform.forward, out hit, 100.0f))
+        if (Physics.Raycast(rightHand.position, rightHand.forward, out hit, 100.0f))
         {
             Player.Instance.transform.position = hit.point;
         }
@@ -22,6 +23,6 @@ public class Blink : Spell {
 
     public override void Init()
     {
-
+        _player = Valve.VR.InteractionSystem.Player.instance;
     }
 }

@@ -1,0 +1,491 @@
+fileFormatVersion: 2
+guid: 23e4ce1152af6e241ac7a776e5b40306
+timeCreated: 1496258180
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Buttons
+    100002: Chain001
+    100004: Chain002
+    100006: Chain003
+    100008: Chain004
+    100010: Chain005
+    100012: Chain006
+    100014: Chains
+    100016: Exit
+    100018: Help
+    100020: //RootNode
+    100022: Plank
+    100024: Plank1
+    100026: Plank2
+    100028: Planks
+    100030: Start
+    100032: Torus
+    100034: Torus 1
+    100036: Torus 2
+    100038: Torus 3
+    100040: Torus1
+    100042: Torus1 1
+    100044: Torus1 2
+    100046: Torus1 3
+    100048: Torus10
+    100050: Torus10 1
+    100052: Torus10 2
+    100054: Torus10 3
+    100056: Torus11
+    100058: Torus11 1
+    100060: Torus11 2
+    100062: Torus11 3
+    100064: Torus12
+    100066: Torus12 1
+    100068: Torus12 2
+    100070: Torus13
+    100072: Torus13 1
+    100074: Torus13 2
+    100076: Torus14
+    100078: Torus14 1
+    100080: Torus14 2
+    100082: Torus14 3
+    100084: Torus15
+    100086: Torus15 1
+    100088: Torus15 2
+    100090: Torus15 3
+    100092: Torus16
+    100094: Torus16 1
+    100096: Torus16 2
+    100098: Torus17
+    100100: Torus18
+    100102: Torus19
+    100104: Torus2
+    100106: Torus2 1
+    100108: Torus2 2
+    100110: Torus2 3
+    100112: Torus20
+    100114: Torus21
+    100116: Torus22
+    100118: Torus23
+    100120: Torus24
+    100122: Torus25
+    100124: Torus26
+    100126: Torus27
+    100128: Torus28
+    100130: Torus29
+    100132: Torus3
+    100134: Torus3 1
+    100136: Torus3 2
+    100138: Torus3 3
+    100140: Torus4
+    100142: Torus4 1
+    100144: Torus4 2
+    100146: Torus5
+    100148: Torus5 1
+    100150: Torus5 2
+    100152: Torus5 3
+    100154: Torus6
+    100156: Torus6 1
+    100158: Torus6 2
+    100160: Torus7
+    100162: Torus7 1
+    100164: Torus7 2
+    100166: Torus8
+    100168: Torus8 1
+    100170: Torus8 2
+    100172: Torus9
+    100174: Torus9 1
+    100176: Torus9 2
+    400000: Buttons
+    400002: Chain001
+    400004: Chain002
+    400006: Chain003
+    400008: Chain004
+    400010: Chain005
+    400012: Chain006
+    400014: Chains
+    400016: Exit
+    400018: Help
+    400020: //RootNode
+    400022: Plank
+    400024: Plank1
+    400026: Plank2
+    400028: Planks
+    400030: Start
+    400032: Torus
+    400034: Torus 1
+    400036: Torus 2
+    400038: Torus 3
+    400040: Torus1
+    400042: Torus1 1
+    400044: Torus1 2
+    400046: Torus1 3
+    400048: Torus10
+    400050: Torus10 1
+    400052: Torus10 2
+    400054: Torus10 3
+    400056: Torus11
+    400058: Torus11 1
+    400060: Torus11 2
+    400062: Torus11 3
+    400064: Torus12
+    400066: Torus12 1
+    400068: Torus12 2
+    400070: Torus13
+    400072: Torus13 1
+    400074: Torus13 2
+    400076: Torus14
+    400078: Torus14 1
+    400080: Torus14 2
+    400082: Torus14 3
+    400084: Torus15
+    400086: Torus15 1
+    400088: Torus15 2
+    400090: Torus15 3
+    400092: Torus16
+    400094: Torus16 1
+    400096: Torus16 2
+    400098: Torus17
+    400100: Torus18
+    400102: Torus19
+    400104: Torus2
+    400106: Torus2 1
+    400108: Torus2 2
+    400110: Torus2 3
+    400112: Torus20
+    400114: Torus21
+    400116: Torus22
+    400118: Torus23
+    400120: Torus24
+    400122: Torus25
+    400124: Torus26
+    400126: Torus27
+    400128: Torus28
+    400130: Torus29
+    400132: Torus3
+    400134: Torus3 1
+    400136: Torus3 2
+    400138: Torus3 3
+    400140: Torus4
+    400142: Torus4 1
+    400144: Torus4 2
+    400146: Torus5
+    400148: Torus5 1
+    400150: Torus5 2
+    400152: Torus5 3
+    400154: Torus6
+    400156: Torus6 1
+    400158: Torus6 2
+    400160: Torus7
+    400162: Torus7 1
+    400164: Torus7 2
+    400166: Torus8
+    400168: Torus8 1
+    400170: Torus8 2
+    400172: Torus9
+    400174: Torus9 1
+    400176: Torus9 2
+    2300000: Exit
+    2300002: Help
+    2300004: Plank
+    2300006: Plank1
+    2300008: Plank2
+    2300010: Start
+    2300012: Torus
+    2300014: Torus 1
+    2300016: Torus 2
+    2300018: Torus 3
+    2300020: Torus1
+    2300022: Torus1 1
+    2300024: Torus1 2
+    2300026: Torus1 3
+    2300028: Torus10
+    2300030: Torus10 1
+    2300032: Torus10 2
+    2300034: Torus10 3
+    2300036: Torus11
+    2300038: Torus11 1
+    2300040: Torus11 2
+    2300042: Torus11 3
+    2300044: Torus12
+    2300046: Torus12 1
+    2300048: Torus12 2
+    2300050: Torus13
+    2300052: Torus13 1
+    2300054: Torus13 2
+    2300056: Torus14
+    2300058: Torus14 1
+    2300060: Torus14 2
+    2300062: Torus14 3
+    2300064: Torus15
+    2300066: Torus15 1
+    2300068: Torus15 2
+    2300070: Torus15 3
+    2300072: Torus16
+    2300074: Torus16 1
+    2300076: Torus16 2
+    2300078: Torus17
+    2300080: Torus18
+    2300082: Torus19
+    2300084: Torus2
+    2300086: Torus2 1
+    2300088: Torus2 2
+    2300090: Torus2 3
+    2300092: Torus20
+    2300094: Torus21
+    2300096: Torus22
+    2300098: Torus23
+    2300100: Torus24
+    2300102: Torus25
+    2300104: Torus26
+    2300106: Torus27
+    2300108: Torus28
+    2300110: Torus29
+    2300112: Torus3
+    2300114: Torus3 1
+    2300116: Torus3 2
+    2300118: Torus3 3
+    2300120: Torus4
+    2300122: Torus4 1
+    2300124: Torus4 2
+    2300126: Torus5
+    2300128: Torus5 1
+    2300130: Torus5 2
+    2300132: Torus5 3
+    2300134: Torus6
+    2300136: Torus6 1
+    2300138: Torus6 2
+    2300140: Torus7
+    2300142: Torus7 1
+    2300144: Torus7 2
+    2300146: Torus8
+    2300148: Torus8 1
+    2300150: Torus8 2
+    2300152: Torus9
+    2300154: Torus9 1
+    2300156: Torus9 2
+    3300000: Exit
+    3300002: Help
+    3300004: Plank
+    3300006: Plank1
+    3300008: Plank2
+    3300010: Start
+    3300012: Torus
+    3300014: Torus 1
+    3300016: Torus 2
+    3300018: Torus 3
+    3300020: Torus1
+    3300022: Torus1 1
+    3300024: Torus1 2
+    3300026: Torus1 3
+    3300028: Torus10
+    3300030: Torus10 1
+    3300032: Torus10 2
+    3300034: Torus10 3
+    3300036: Torus11
+    3300038: Torus11 1
+    3300040: Torus11 2
+    3300042: Torus11 3
+    3300044: Torus12
+    3300046: Torus12 1
+    3300048: Torus12 2
+    3300050: Torus13
+    3300052: Torus13 1
+    3300054: Torus13 2
+    3300056: Torus14
+    3300058: Torus14 1
+    3300060: Torus14 2
+    3300062: Torus14 3
+    3300064: Torus15
+    3300066: Torus15 1
+    3300068: Torus15 2
+    3300070: Torus15 3
+    3300072: Torus16
+    3300074: Torus16 1
+    3300076: Torus16 2
+    3300078: Torus17
+    3300080: Torus18
+    3300082: Torus19
+    3300084: Torus2
+    3300086: Torus2 1
+    3300088: Torus2 2
+    3300090: Torus2 3
+    3300092: Torus20
+    3300094: Torus21
+    3300096: Torus22
+    3300098: Torus23
+    3300100: Torus24
+    3300102: Torus25
+    3300104: Torus26
+    3300106: Torus27
+    3300108: Torus28
+    3300110: Torus29
+    3300112: Torus3
+    3300114: Torus3 1
+    3300116: Torus3 2
+    3300118: Torus3 3
+    3300120: Torus4
+    3300122: Torus4 1
+    3300124: Torus4 2
+    3300126: Torus5
+    3300128: Torus5 1
+    3300130: Torus5 2
+    3300132: Torus5 3
+    3300134: Torus6
+    3300136: Torus6 1
+    3300138: Torus6 2
+    3300140: Torus7
+    3300142: Torus7 1
+    3300144: Torus7 2
+    3300146: Torus8
+    3300148: Torus8 1
+    3300150: Torus8 2
+    3300152: Torus9
+    3300154: Torus9 1
+    3300156: Torus9 2
+    4300000: Start
+    4300002: Exit
+    4300004: Help
+    4300006: Torus10
+    4300008: Torus11
+    4300010: Torus12
+    4300012: Torus13
+    4300014: Torus14
+    4300016: Torus15
+    4300018: Torus16
+    4300020: Torus4
+    4300022: Torus5
+    4300024: Torus8
+    4300026: Torus9
+    4300028: Torus10
+    4300030: Torus11
+    4300032: Torus12
+    4300034: Torus13
+    4300036: Torus14
+    4300038: Torus15
+    4300040: Torus16
+    4300042: Torus
+    4300044: Torus1
+    4300046: Torus2
+    4300048: Torus3
+    4300050: Torus
+    4300052: Torus1
+    4300054: Torus2
+    4300056: Torus3
+    4300058: Torus5
+    4300060: Torus6
+    4300062: Torus7
+    4300064: Torus
+    4300066: Torus1
+    4300068: Torus2
+    4300070: Torus3
+    4300072: Torus4
+    4300074: Torus5
+    4300076: Torus6
+    4300078: Torus7
+    4300080: Torus8
+    4300082: Torus9
+    4300084: Torus10
+    4300086: Torus11
+    4300088: Torus14
+    4300090: Torus15
+    4300092: Torus17
+    4300094: Torus24
+    4300096: Torus25
+    4300098: Torus26
+    4300100: Torus27
+    4300102: Torus28
+    4300104: Torus29
+    4300106: Torus
+    4300108: Torus1
+    4300110: Torus2
+    4300112: Torus3
+    4300114: Torus4
+    4300116: Torus5
+    4300118: Torus6
+    4300120: Torus7
+    4300122: Torus8
+    4300124: Torus9
+    4300126: Torus10
+    4300128: Torus11
+    4300130: Torus12
+    4300132: Torus13
+    4300134: Torus14
+    4300136: Torus15
+    4300138: Torus16
+    4300140: Torus18
+    4300142: Torus19
+    4300144: Torus20
+    4300146: Torus21
+    4300148: Torus22
+    4300150: Torus23
+    4300152: Plank
+    4300154: Plank1
+    4300156: Plank2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -19,6 +19,7 @@ public class Book : MonoBehaviour
     private void Awake()
     {
         _player = GetComponent<Player>();
+        _spellSelected.Init();
         Instance = this;
     }
 
@@ -26,7 +27,7 @@ public class Book : MonoBehaviour
     {
         var spell = _spells[i];
         _spellSelected = spell;
-        Debug.Log(spell);
+        _spellSelected.Init();
     }
 
     public Spell GetCurrentSpell()

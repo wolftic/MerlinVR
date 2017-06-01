@@ -4,6 +4,7 @@ public class GameManager : MonoBehaviour
 {
     private GameObject[] _enemySpawnerObjects;
     private EnemySpawner[] _enemySpawners;
+    [SerializeField]
     private int _maxEnemies;
     private int _waveCount;
     private EnemySpawner _enemySpawner;
@@ -17,7 +18,6 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         _waveCount = 0;
-        _maxEnemies = 5;
         _enemySpawners = new EnemySpawner[_enemySpawnerObjects.Length];
 
         for (var i = 0; i < _enemySpawners.Length; i++)
