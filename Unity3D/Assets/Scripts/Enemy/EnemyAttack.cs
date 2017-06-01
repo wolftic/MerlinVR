@@ -9,22 +9,8 @@ public class EnemyAttack : State
 
     private float _lastAttack;
 
-
     [SerializeField]
     private float _attackDelay;
-
-
-    public float Damage
-    {
-        get
-        {
-           return _damage;
-        }
-        set
-        {
-           _damage = value;
-        }
-    }
 
     public override void Enter()
     {
