@@ -4,33 +4,42 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject _enemyPrefab;
+    public GameObject _enemyPrefab;
     [SerializeField] private float _cooldown = 2f;
+
 
     private List<GameObject> _enemies = new List<GameObject>();
 
+    private void Awake()
+    {
+
+    }
+    
     private void Start()
     {
 
     }
 
-    public void SpawnEnemies(int count)
+    public void SpawnEnemies(float count, float damage)
     {
-        StartCoroutine(Spawn(count));
+        StartCoroutine(Spawn(count, damage));
     }
 
-    public IEnumerator Spawn(int count)
+    public IEnumerator Spawn(float count, float damage)
     {
         _enemies.Clear();
 
         for (var i = 0; i < count; i++)
         {
             var enemy = (GameObject) Instantiate(_enemyPrefab, transform.position, transform.rotation);
-
+            
+            enemy.GetComponent<EnemyAttack>().Damage = damage;
+            Debug.Log("Damage: " + damage);
+            
             _enemies.Add(enemy);
-
             yield return new WaitForSeconds(_cooldown);
         }
+       
     }
 
     public int EnemyCount()
